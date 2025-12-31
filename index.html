@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Verval Daya Listrik</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0f4c81;
+      color: #fff;
+      padding: 24px 16px;
+    }
+
+    .header-container {
+      max-width: 960px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo {
+      width: 70px;
+      height: 70px;
+      background: #fff;
+      padding: 6px;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+
+    .header-text p {
+      margin: 4px 0 0;
+      font-size: 0.95rem;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+
+    .intro {
+      background: #fff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      margin-bottom: 28px;
+    }
+
+    .intro h2 {
+      margin-top: 0;
+      color: #0f4c81;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 24px;
+      border-radius: 14px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #0f4c81;
+    }
+
+    .card p {
+      flex-grow: 1;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 18px;
+      background-color: #1f8dd6;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background-color: #166fa8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 16px;
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <!-- GANTI DENGAN FILE LOGO INSTANSI -->
+      <img src="logo-instansi.png" alt="Logo Instansi" class="logo">
+      <div class="header-text">
+        <h1>Portal Verval Daya Listrik</h1>
+        <p>Satuan Pendidikan dan Dinas Pendidikan</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Selamat Datang</h2>
+      <p>
+        Portal ini disediakan sebagai sarana pendukung pemutakhiran data daya listrik
+        pada satuan pendidikan serta penyajian informasi berbasis data melalui dashboard.
+        Data yang akurat dan terkini menjadi dasar penting dalam perencanaan dan
+        pengambilan kebijakan pendidikan.
+      </p>
+      <p>
+        Satuan pendidikan diharapkan dapat melakukan verifikasi dan validasi data daya
+        listrik sesuai kondisi riil di lapangan, sementara dinas pendidikan dapat
+        memanfaatkan dashboard sebagai bahan monitoring dan evaluasi.
+      </p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Formulir Verval Daya Listrik</h3>
+        <p>
+          Digunakan oleh satuan pendidikan untuk melakukan verifikasi dan validasi
+          data daya listrik sesuai kondisi sebenarnya.
+        </p>
+        <!-- GANTI LINK FORMULIR -->
+        <a href="https://link-formulir-verval" target="_blank" class="btn">
+          Buka Formulir Verval
+        </a>
+      </div>
+
+      <div class="card">
+        <h3>Dashboard Monitoring</h3>
+        <p>
+          Menyajikan rekapitulasi dan visualisasi data hasil verval sebagai bahan
+          monitoring dan evaluasi bagi dinas pendidikan.
+        </p>
+        <!-- GANTI LINK DASHBOARD -->
+        <a href="https://link-dashboard" target="_blank" class="btn">
+          Buka Dashboard
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 – Portal Verval Daya Listrik | Mendukung pemutakhiran data pendidikan
+  </footer>
+
+</body>
+</html>
